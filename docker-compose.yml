@@ -30,10 +30,11 @@ services:
         hard: 1000000
     volumes:
       - ./app:/app
+      - ./.docker/app/99-php.ini:/usr/local/etc/php/conf.d/99-php.ini
     deploy:
       resources:
         limits:
-          cpus: '0.3'
+          cpus: '0.4'
           memory: '150MB'
 
   app2:
@@ -55,7 +56,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.7'
+          cpus: '0.5'
           memory: '150MB'
 
 networks:

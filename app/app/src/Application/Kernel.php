@@ -12,13 +12,13 @@ use Spiral\Cycle\Bootloader\DatabaseBootloader;
 use Spiral\DotEnv\Bootloader\DotenvBootloader;
 use Spiral\Monolog\Bootloader\MonologBootloader;
 use Spiral\Nyholm\Bootloader\NyholmBootloader;
-use Spiral\Prototype\Bootloader\PrototypeBootloader;
+//use Spiral\Prototype\Bootloader\PrototypeBootloader;
 use Spiral\RoadRunnerBridge\Bootloader as RoadRunnerBridge;
 use Spiral\Scaffolder\Bootloader\ScaffolderBootloader;
-use Spiral\Tokenizer\Bootloader\TokenizerListenerBootloader;
+//use Spiral\Tokenizer\Bootloader\TokenizerListenerBootloader;
 use Spiral\Validation\Bootloader\ValidationBootloader;
 use Spiral\Validator\Bootloader\ValidatorBootloader;
-use Spiral\Views\Bootloader\ViewsBootloader;
+//use Spiral\Views\Bootloader\ViewsBootloader;
 use Spiral\YiiErrorHandler\Bootloader\YiiErrorHandlerBootloader;
 
 class Kernel extends \Spiral\Framework\Kernel
@@ -32,7 +32,7 @@ class Kernel extends \Spiral\Framework\Kernel
         return [
             CoreBootloader::class,
             DotenvBootloader::class,
-            TokenizerListenerBootloader::class,
+//            TokenizerListenerBootloader::class,
 
 //            DumperBootloader::class,
         ];
@@ -59,7 +59,7 @@ class Kernel extends \Spiral\Framework\Kernel
             // Security and validation
             Framework\Security\EncrypterBootloader::class,
             Framework\Security\FiltersBootloader::class,
-            Framework\Security\GuardBootloader::class,
+//            Framework\Security\GuardBootloader::class,
 
             // HTTP extensions
             HttpBootloader::class,

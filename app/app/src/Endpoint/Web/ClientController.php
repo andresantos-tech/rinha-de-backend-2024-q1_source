@@ -38,6 +38,7 @@ class ClientController
                 'saldo' => $result['current_balance'],
             ]
         ));
+
         return $response;
     }
 
@@ -64,6 +65,7 @@ class ClientController
                 'ultimas_transacoes' => $service->getRecentTransactions($accountId),
             ]
         ));
+
         return $response;
     }
 }
