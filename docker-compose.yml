@@ -30,7 +30,7 @@ services:
         hard: 1000000
     volumes:
       - ./app:/app
-      - ./.docker/app/99-php.ini:/usr/local/etc/php/conf.d/99-php.ini
+#      - ./.docker/app/99-php.ini:/usr/local/etc/php/conf.d/99-php.ini
     deploy:
       resources:
         limits:

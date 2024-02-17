@@ -1,4 +1,4 @@
-# Submissão para Rinha de Backend, Segunda Edição: Controle de Concorrência
+# Submissão para Rinha de Backend, Segunda Edição: Controle de Concorrência (source)
 
 <img src="./images/nginx.svg" alt="logo nginx" width="150" height="auto" align="left" style="margin: 38px 30px 0 0; ">
 <img src="./images/php.svg" alt="logo PHP" width="150" height="auto" align="left" style="margin: 15px 30px 0 0;" />
@@ -10,9 +10,9 @@
 
 Projeto com foco em ter uma performance razoável com PHP mas sem muita doideira :)
 
-## 🚀 Como rodar o projeto
+## 🚀 Como rodar o projeto (source)
 ```
-docker-compose up -d
+// TODO
 ```
 
 ## 💻 Tecnologias utilizadas
